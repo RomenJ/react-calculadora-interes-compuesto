@@ -10,24 +10,7 @@ import Container from './components/Container'
 import Section from './components/Section'
 import Balance from './components/Balance'
 import HeaderApp from './components/HeaderApp'
-
-const Background = styled.div`
-  background: 
-    repeating-linear-gradient(
-      45deg, 
-      #f0f0f0, 
-      #f0f0f0 10px, 
-      #dddddd 10px, 
-      #dddddd 20px
-    ),
-    linear-gradient(
-      to bottom, 
-      #333333, 
-      #555555
-    );
-  background-size: 100% 20px, 100%;
-  background-attachment: fixed;
-`;
+import Background from './components/Background'
 
 const compoundInterest=(deposit, contribution,years,rate)=>{
   let total=deposit
